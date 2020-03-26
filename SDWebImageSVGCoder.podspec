@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDWebImageSVGCoder'
-  s.version          = '1.5.0'
+  s.version          = '1.5.1'
   s.summary          = 'A SVG coder plugin for SDWebImage, using Apple built-in framework'
 
 # This description is used to generate tags and improve search results.
@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/SDWebImage/SDWebImageSVGCoder'
+  s.homepage         = 'https://github.com/jbouaziz/SDWebImageSVGCoder'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lizhuoli1126@126.com' => 'lizhuoli1126@126.com' }
   s.source           = { :git => 'https://github.com/SDWebImage/SDWebImageSVGCoder.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '10.0'
   s.tvos.deployment_target = '13.0'
   s.osx.deployment_target = '10.15'
   s.watchos.deployment_target = '6.0'

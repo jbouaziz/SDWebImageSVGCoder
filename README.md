@@ -28,10 +28,12 @@ You can modify the code or use some other SVG files to check the compatibility.
 
 ## Requirements
 
-+ iOS 13+
++ iOS 10+
 + tvOS 13+
 + macOS 10.15+
 + watchOS 6+
+
+However the code will only work on iOS 13+, it is merely for integrating without any hassle into existing projects that support older versions.
 
 ## Installation
 
